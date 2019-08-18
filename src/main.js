@@ -1,10 +1,10 @@
 import { random } from "lodash-es";
-import { readable  } from "svelte/store";
+import { readable } from "svelte/store";
 
-const value = readable(random(0, 100, false), (set) => {
+const value = readable(random(0, 100, false), set => {
   const interval = setInterval(() => {
-		set(random(0, 100, false));
-	}, 1000);
+    set(random(0, 100, false));
+  }, 1000);
 
   return () => {
     clearInterval(interval);
