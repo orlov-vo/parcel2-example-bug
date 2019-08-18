@@ -1,0 +1,19 @@
+{
+  "name": "parcel2-example-bug",
+  "browser": "dist/index.html",
+  "source": "src/index.html",
+  "private": true,
+  "scripts": {
+    "start": "parcel build src/index.html --no-cache --no-minify"
+  },
+  "browserslist": "last 1 versions",
+  "dependencies": {
+    "core-js": "^3.2.1",
+    "lodash-es": "^4.17.15",
+    "svelte": "^3.8.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.5",
+    "parcel": "2.0.0-alpha.1.1"
+  }
+}
