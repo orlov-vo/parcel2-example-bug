@@ -9,7 +9,7 @@
   "browserslist": "last 1 versions",
   "dependencies": {
     "core-js": "^3.2.1",
-    "lodash-es": "^4.17.15",
+    "lodash-es": "^4.17.21",
     "svelte": "^3.12.1"
   },
   "devDependencies": {
